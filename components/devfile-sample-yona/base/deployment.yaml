@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-yona
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0021-tenant/tkrw-pr712-0075-0021-app/devfile-sample-yona@sha256:e42deb0d48f617b4d544da4687332b2474fdda1349b8f559758bee7c1c466cfd
         name: my-nodejs
         ports:
         - containerPort: 3001
